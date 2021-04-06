@@ -14,3 +14,5 @@ deploy:
   username: docker-react2
   password: docker-react2
   site: docker-react2
+  skip_cleanup: true
+  verbose: true
