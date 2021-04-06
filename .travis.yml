@@ -8,3 +8,9 @@ before_install:
 
 script:
   - docker run -e CI=true kllee-au/docker-react npm run test
+
+deploy: 
+  provider: azure_web_apps
+  username: docker-react2
+  password: docker-react2
+  site: docker-react2
